@@ -1,0 +1,38 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://java.com
+hs_err_pid*
+replay_pid*
+
+# Специфичные файлы VS Code / Codespaces
+.vscode/
+*.code-workspace
+.history/
+
+# Файлы сборки Maven
+target/
+*.ser
+*.ec
+
+# Файлы сборки Gradle
+.gradle/
+build/
