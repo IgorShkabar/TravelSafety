@@ -10,6 +10,12 @@ public enum ThreatType {
     THEFT,              // Кража (общая)
     TRANSPORT_THEFT,    // Воровство в транспорте
     HOTEL_THEFT,        // Воровство в номере отеля
-    RACIAL_INSULT       // Оскорбление на расовой/национальной/религиозной почве
+    STALKING,           
+    PEDOPHILIA,
+    MANIACS,
+    CELEBRITY_HARASSMENT,
+    ANIMAL_ATTACK,
+    RACIAL_INSULT,      // Оскорбление на расовой/национальной/религиозной почве
+    HATE_SPEECH,        // Ненависть словесная
 }
 

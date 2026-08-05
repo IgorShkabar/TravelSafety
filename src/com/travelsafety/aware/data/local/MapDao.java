@@ -7,7 +7,8 @@ import androidx.room.Query;
 import java.util.List;
 
 @Dao
-public interface MapDao {
+public interface MapDao 
+{
     @Query("SELECT tileData FROM map_tiles WHERE tileId = :tileId LIMIT 1")
     byte[] getTile(String tileId);
 

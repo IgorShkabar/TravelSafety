@@ -13,18 +13,21 @@ public class MapRepositoryImpl implements MapRepository
     private final MapDao mapDao;
     private final CalculateRiskUseCase calculateRiskUseCase;
 
-    public MapRepositoryImpl(MapDao mapDao, CalculateRiskUseCase calculateRiskUseCase) {
+    public MapRepositoryImpl(MapDao mapDao, CalculateRiskUseCase calculateRiskUseCase) 
+    {
         this.mapDao = mapDao;
         this.calculateRiskUseCase = calculateRiskUseCase;
     }
 
     @Override
-    public byte[] getOfflineTile(int x, int y, int zoom) {
+    public byte[] getOfflineTile(int x, int y, int zoom) 
+    {
         return mapDao.getTile(zoom + "_" + x + "_" + y);
     }
 
     @Override
-    public GeoZoneRisk getRiskForCoordinates(double lat, double lon) {
+    public GeoZoneRisk getRiskForCoordinates(double lat, double lon) 
+    {
         // Имитация чтения из БД геозон и парсинга json-инцидентов
         // В реальном коде: перебор geofences через проверку дистанции
         Map<ThreatType, Integer> mockIncidents = new HashMap<>();

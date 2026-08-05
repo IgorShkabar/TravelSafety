@@ -9,3 +9,5 @@ public interface MapRepository
     GeoZoneRisk getRiskForCoordinates(double lat, double lon);
 }
 
+собрать проект дальше, или вы хотите написать тест для проверки формулы расчета рисков
+
