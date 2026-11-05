@@ -10,8 +10,8 @@
 
 	<properties>
 	<!-- To fix the Java version — this is the long-term support (LTS) version, available on all OS -->
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
 			<!-- Hard-code UTF-8 encoding for Linux-Windows compatibility -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>

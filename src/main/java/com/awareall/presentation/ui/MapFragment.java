@@ -1,5 +1,14 @@
 package com.awareall.presentation.ui;
 
+import com.awareall.data.local.MapDao;
+import com.awareall.domain.model.GeoZoneRisk;
+import com.awareall.presentation.state.MapUiState;
+
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.atomic.AtomicBoolean;
+
 // Концептуальное описание экранов:
 // 1. MapScreen: Офлайн-тайлы (Mapsforge/OSMDroid), отображение маркеров угроз.
 // 2. SosButtonScreen: Крупная красная кнопка с круговым таймером отмены (защита от ложных нажатий), статус сети (Wi-Fi/LTE/SMS).

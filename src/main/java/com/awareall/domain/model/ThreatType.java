@@ -2,6 +2,7 @@ package com.awareall.domain.model;
 
 public enum ThreatType {
     MURDER,             // Убийство
+    ANIMAL_ATTACK,
     RAPE,               // Изнасилование
     ROBBERY,            // Ограбление
     KNIFE_ASSAULT,      // Нападение с ножом
@@ -13,8 +14,7 @@ public enum ThreatType {
     STALKING,           
     PEDOPHILIA,
     MANIACS,
-    CELEBRITY_HARASSMENT,
-    ANIMAL_ATTACK,
+    CELEBRITY_HARASSMENT,    
     RACIAL_INSULT,      // Оскорбление на расовой/национальной/религиозной почве
     HATE_SPEECH,        // Ненависть словесная
 }
