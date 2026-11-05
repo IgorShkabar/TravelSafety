@@ -35,9 +35,5 @@ public class SosEventBus
             {
             observer.onSosTriggered(event);
         }
-    }
-
-    
-
-    
+    }   
 }
