@@ -1,4 +1,3 @@
-
 package com.awareall.presentation;
 
 import com.awareall.core.location.LocationManagerSingleton;
