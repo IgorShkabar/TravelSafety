@@ -1,11 +1,13 @@
 # AwareAll
 protecting individuals from attacks anywhere in the world. Interaction with the police, levels of aggression and crime by country, and the degree of danger.
 # Screeshot
-
+<img width="50%" alt="Screenshot From 2026-11-05 19-59-14" src="https://github.com/user-attachments/assets/53c0dc49-2cb3-4150-88a4-276704e25264" />
 
 ## Architecture of "AwareAll" program: 
 rapid SOS transmission, risk geofence monitoring, offline map support. Codebase - Java. Packages: domain, data, presentation, core/bus layers. Patterns: Strategy for SOS protocols, Observer for the alarm dispatcher, Singleton/DI-lite for the geolocation manager.  System core: threads, network &amp; interface-based logging.
 The solution split into logical layers (core, data, domain, presentation) and contains tests.
+* <img width="1920" height="1080" alt="Screenshot From 2026-11-05 19-59-14" src="https://github.com/user-attachments/assets/4ad8049e-aa88-4f39-83ec-47954e5a673d" />
+<img width="1920" height="1080" alt="Screenshot From 2026-11-05 19-59-14" src="https://github.com/user-attachments/assets/69170b74-db59-48dc-9d1a-946afd58515d" />
 📂
 <details>
 ```text
