@@ -23,16 +23,28 @@
 hs_err_pid*
 replay_pid*
 
-# Специфичные файлы VS Code / Codespaces
+# Specific files for VS Code / Codespaces
 .vscode/
 *.code-workspace
 .history/
 
-# Файлы сборки Maven
+# Files for Maven build
 target/
 *.ser
 *.ec
 
-# Файлы сборки Gradle
+# Files for Gradle build
 .gradle/
 build/
+
+# Ignore results of Maven builds (they are unique for each run)
+/target/
+
+# Ignore specific settings for IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Ignore garbage files of operating systems
+.DS_Store
+Thumbs.db

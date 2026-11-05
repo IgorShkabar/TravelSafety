@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://apache.org"
+	xmlns:xsi="http://w3.org"
+	xsi:schemaLocation="http://apache.org http://apache.org">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.awareall</groupId>
+	<artifactId>aware-core</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<properties>
+	<!-- To fix the Java version — this is the long-term support (LTS) version, available on all OS -->
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+			<!-- Hard-code UTF-8 encoding for Linux-Windows compatibility -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<plugins>
+			<!-- This plugin is responsible for building the project into a standard cross-platform .jar archive -->
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+					<version>3.3.0</version>
+						<configuration>
+							<archive>
+								<manifest>
+						<mainClass>com.awareall.presentation.ui.Main</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

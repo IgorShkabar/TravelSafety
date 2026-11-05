@@ -1,0 +1,13 @@
+package com.awareall.domain.repository;
+
+import com.awareall.domain.model.GeoZoneRisk;
+// import java.util.Map;
+
+public interface MapRepository 
+{
+    byte[] getOfflineTile(int x, int y, int zoom);
+    GeoZoneRisk getRiskForCoordinates(double lat, double lon);
+}
+
+//  собрать проект дальше, или вы хотите написать тест для проверки формулы расчета рисков
+
